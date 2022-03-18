@@ -63,7 +63,7 @@
 //
 // Top level Pages navigation list styles
 // -----------------------------------------------------------------------------
-
+.navPages-itemb {display:inline-flex;}
 .navPages {
     background-color: $navPages-backgroundColor;
     height: 100%;
@@ -103,6 +103,7 @@
 
 .navPages-list {
     margin: 0;
+    display:inline-flex;
 
     @include breakpoint("medium") {
         display: inline-block;
@@ -186,7 +187,7 @@
 .navPages-action {
     color: stencilColor("navPages-color");
     display: block;
-    font-size: fontSize("smaller");
+    font-size: 0.95rem;
     font-weight: fontWeight("bold");
     padding: spacing("half") 0;
     text-decoration: none;

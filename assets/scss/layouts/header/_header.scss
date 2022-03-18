@@ -73,7 +73,7 @@
 
     @include breakpoint("medium") {
         height: auto;
-        margin: (spacing("double") + spacing("base")) auto (spacing("double") + spacing("single"));
+      /*  margin: (spacing("double") + spacing("base")) auto (spacing("double") + spacing("single"));*/
         padding: 0;
 
         .header.fixed & {
@@ -175,9 +175,10 @@
 .header-logo-image-container {
     position: relative;
     width: 100%;
+    margin:10px;
 
     @include breakpoint("medium") {
-        min-height: get-height(stencilString("logo_size"));
+       // min-height: get-height(stencilString("logo_size"));
     }
 }
 
